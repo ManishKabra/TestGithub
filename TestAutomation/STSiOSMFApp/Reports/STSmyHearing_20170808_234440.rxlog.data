@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a6e89a843bbb195"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="1"
+		user="Z002XFCE"
+		host="BLRKIET0189PC"
+		rxversion="6.2.1.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1440x900"
+		timestamp="8/8/2017 11:44:40 PM"
+		timestampiso="2017-08-08T18:14:40"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.78s"
+			durationms="2777"
+			type="test suite"
+			rid="20008d503f952e78"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1"
+			testsuitename="STSmyHearing"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="7">
+			<params>
+				<param
+					name="Device">
+					4d0096084cea41e3
+				</param>
+				<param
+					name="Brand">
+					Signia
+				</param>
+				<param
+					name="AppName">
+					com.signia.myhearing
+				</param>
+				<param
+					name="NewParameter">
+					Pappu
+				</param>
+			</params>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2.76s"
+				durationms="2758"
+				type="test case setup"
+				rid="16d1b5e92c6182f2"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="2.76s"
+					durationms="2755"
+					type="test module"
+					rid="cdbc2bb2a6be6e"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="AndroidSuiteSetUp"
+					moduleid="f7be559f-6339-485a-b996-d763e4a82164"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Webdriver object not set
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.888"
+						timeRelativeToTestModuleStartTime="00:02.583"
+						timeWallClock="23:44:43"
+						time="00:02.888"
+						level="Failure"
+						category="User"
+						errimg="images_STSmyHea_f47421a0\STSmyHea_f47421a0_af4b2d03_trace.jpg"
+						errthumb="images_STSmyHea_f47421a0\STSmyHea_f47421a0_af4b2d03_trace_thumb.jpg">
+						<message>
+							An unknown server-side error occurred while processing the command. Original error: Device 4d0096084cea41e3 was not in the list of connected devices
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="169"
+							loglvl="Failure"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.959"
+						timeRelativeToTestModuleStartTime="00:02.654"
+						timeWallClock="23:44:43"
+						time="00:02.959"
+						level="Error"
+						category="Module"
+						errimg="images_STSmyHea_f47421a0\STSmyHea_f47421a0_50eb613a_trace.jpg"
+						errthumb="images_STSmyHea_f47421a0\STSmyHea_f47421a0_50eb613a_trace_thumb.jpg">
+						<message>
+							Webdriver object not set
+						</message>
+						<metainfo
+							stacktrace="   at AppLayer.AppiumService.Accessor.getDriver() in c:\New folder (2)\TestAutomation\AppLayer\AppiumService\Accessor.cs:line 29
+   at STSmyHearing.AndroidSuiteSetUp.Ranorex.Core.Testing.ITestModule.Run() in c:\New folder (2)\TestAutomation\STSmyHearing\AndroidSuiteSetUp.cs:line 244
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\Accessor.cs"
+							codeline="29"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="2ms"
+				durationms="2"
+				type="test case"
+				rid="84fe8c62727831b"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				testcasename="HCPAddress"
+				testcaseid="2375aa54-6622-4151-9326-749c7a12d595"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+			</activity>
+		</activity>
+	</activity>
+</report>

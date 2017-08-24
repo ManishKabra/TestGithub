@@ -1,0 +1,27 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CommonHelper.cs" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Framework\TestAutomation\STSmyHearing\AndroidSuiteSetUp.cs|245|5|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="STSmyHearing.rxtst" />
+    <Element value="AndroidSuiteSetUp.cs" />
+    <Element value="CommonHelper.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="STSmyHearing.WebPart.WebHelper.ClickOnSettingsOption(String option)" />
+      <Element value="STSmyHearing.CommonHelper.ValidateContents(String contents)" />
+      <Element value="STSmyHearing.TC.ConsentStatement.EnterCode()" />
+      <Element value="STSmyHearing.CommonHelper.TapOn(String objectName)" />
+      <Element value="STSmyHearing.CommonHelper.BackAction()" />
+      <Element value="STSmyHearing.CommonHelper.ValidateContentsWithDesc(String contentDisc, Boolean takeScreenshot)" />
+    </Array>
+  </Properties>
+</Properties>

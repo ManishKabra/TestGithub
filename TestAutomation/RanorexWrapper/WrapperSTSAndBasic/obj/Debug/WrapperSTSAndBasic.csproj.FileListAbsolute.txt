@@ -1,0 +1,67 @@
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\AppLayer.rxtmg
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.rxtmg
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.rxtst
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WrapperSTSAndBasic.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WrapperSTSAndBasic.pdb
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\AppLayer.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Controls.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Core.Injector.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Core.WinApi.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.exe
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\appium-dotnet-driver.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.Support.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\LogCapturer.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Tools.CommonVersionUpgrader.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.ApplicationInsights.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Newtonsoft.Json.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Castle.Core.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\AppLayer.pdb
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.pdb
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.xml
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\appium-dotnet-driver.xml
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.Support.xml
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\LogCapturer.pdb
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Newtonsoft.Json.xml
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Castle.Core.xml
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\obj\Debug\WrapperSTSAndBasic.csprojResolveAssemblyReference.cache
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\obj\Debug\WrapperSTSAndBasic.dll
+C:\Workspace_0707\RanorexWrapper\WrapperSTSAndBasic\obj\Debug\WrapperSTSAndBasic.pdb
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\obj\Debug\WrapperSTSAndBasic.csprojResolveAssemblyReference.cache
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\AppLayer.rxtmg
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.rxtmg
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.rxtst
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WrapperSTSAndBasic.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WrapperSTSAndBasic.pdb
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\AppLayer.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Controls.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Core.Injector.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Core.WinApi.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.exe
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\appium-dotnet-driver.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.Support.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\LogCapturer.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.Tools.CommonVersionUpgrader.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.ApplicationInsights.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Newtonsoft.Json.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Castle.Core.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\AppLayer.pdb
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\STSAndBasic.pdb
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\appium-dotnet-driver.xml
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.xml
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\WebDriver.Support.xml
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\LogCapturer.pdb
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Newtonsoft.Json.xml
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Castle.Core.xml
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\obj\Debug\WrapperSTSAndBasic.dll
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\obj\Debug\WrapperSTSAndBasic.pdb
+C:\New folder (2)\TestAutomation\RanorexWrapper\WrapperSTSAndBasic\bin\Debug\Ranorex.PDF.dll

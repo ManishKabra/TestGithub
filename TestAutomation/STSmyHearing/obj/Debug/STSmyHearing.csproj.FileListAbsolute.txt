@@ -1,0 +1,45 @@
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\AppLayer.rxtmg
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.rxtmg
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.rxtst
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.exe.config
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.exe
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.pdb
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\appium-dotnet-driver.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\AppLayer.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\Castle.Core.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\Newtonsoft.Json.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\WebDriver.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\WebDriver.Support.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\LogCapturer.dll
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\AppLayer.pdb
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\appium-dotnet-driver.xml
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\Castle.Core.xml
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\Newtonsoft.Json.xml
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\WebDriver.xml
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\WebDriver.Support.xml
+C:\New folder (2)\TestAutomation\STSmyHearing\bin\Debug\LogCapturer.pdb
+C:\New folder (2)\TestAutomation\STSmyHearing\obj\Debug\STSmyHearing.csprojResolveAssemblyReference.cache
+C:\New folder (2)\TestAutomation\STSmyHearing\obj\Debug\STSmyHearing.exe
+C:\New folder (2)\TestAutomation\STSmyHearing\obj\Debug\STSmyHearing.pdb
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\AppLayer.rxtmg
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\AppiumService\KeywordImplementation.cs
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.rxtmg
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.rxtst
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.exe.config
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.exe
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\STSmyHearing.pdb
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\appium-dotnet-driver.dll
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\AppLayer.dll
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\Castle.Core.dll
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\Newtonsoft.Json.dll
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\WebDriver.dll
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\WebDriver.Support.dll
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\AppLayer.pdb
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\appium-dotnet-driver.xml
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\Castle.Core.xml
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\Newtonsoft.Json.xml
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\WebDriver.xml
+C:\Framework\TestAutomation\STSmyHearing\bin\Debug\WebDriver.Support.xml
+C:\Framework\TestAutomation\STSmyHearing\obj\Debug\STSmyHearing.csprojResolveAssemblyReference.cache
+C:\Framework\TestAutomation\STSmyHearing\obj\Debug\STSmyHearing.exe
+C:\Framework\TestAutomation\STSmyHearing\obj\Debug\STSmyHearing.pdb

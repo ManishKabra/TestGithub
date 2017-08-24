@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a8f7f2d21531278"
+		totalerrorcount="1"
+		totalwarningcount="9"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Z002XFCE"
+		host="BLRKIET0189PC"
+		rxversion="6.2.1.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1440x900"
+		timestamp="8/8/2017 11:45:01 PM"
+		timestampiso="2017-08-08T18:15:01"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.7m"
+			durationms="99196"
+			type="test suite"
+			rid="85d41e38c05cfd3"
+			totalerrorcount="1"
+			totalwarningcount="9"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="STSmyHearing"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="7">
+			<params>
+				<param
+					name="Device">
+					4d0096084cea41e3
+				</param>
+				<param
+					name="Brand">
+					Signia
+				</param>
+				<param
+					name="AppName">
+					com.signia.myhearing
+				</param>
+				<param
+					name="NewParameter">
+					Pappu
+				</param>
+			</params>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="23.89s"
+				durationms="23892"
+				type="test case setup"
+				rid="263987bd4368a28"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="23.89s"
+					durationms="23889"
+					type="test module"
+					rid="15233eb62ab64b1"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="AndroidSuiteSetUp"
+					moduleid="f7be559f-6339-485a-b996-d763e4a82164"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.638"
+						timeRelativeToTestModuleStartTime="00:21.345"
+						timeWallClock="23:45:23"
+						time="00:21.638"
+						level="Info"
+						category="Launch Android App">
+						<message>
+							Connected to Appium Server at http://127.0.0.1:4723/wd/hub
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="165"
+							loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="1.3m"
+				durationms="75285"
+				type="test case"
+				rid="37c71c13c1e0720"
+				totalerrorcount="1"
+				totalwarningcount="9"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="HCPAddress"
+				testcaseid="2375aa54-6622-4151-9326-749c7a12d595"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="27.91s"
+					durationms="27912"
+					type="test case setup"
+					rid="9b86abb25062c45"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="27.91s"
+						durationms="27911"
+						type="test module"
+						rid="1751e3f945d85bd0"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="AndroidSetup"
+						moduleid="ddfb6a0e-69f8-494c-9469-9d369198c6f6"
+						moduletype="UserCode">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:36.570"
+							timeRelativeToTestModuleStartTime="00:12.385"
+							timeWallClock="23:45:38"
+							time="00:36.570"
+							level="Info"
+							category="Launch Android App">
+							<message>
+								Connected to Appium Server at http://127.0.0.1:4723/wd/hub
+							</message>
+							<metainfo
+								codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+								codeline="83"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:51.989"
+							timeRelativeToTestModuleStartTime="00:27.804"
+							timeWallClock="23:45:53"
+							time="00:51.989"
+							level="Warn"
+							category="User">
+							<message>
+								Timed out after 15 seconds
+							</message>
+							<metainfo
+								codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+								codeline="222"
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:52.047"
+							timeRelativeToTestModuleStartTime="00:27.862"
+							timeWallClock="23:45:54"
+							time="00:52.047"
+							level="Info"
+							category="User">
+							<message>
+								4d0096084cea41e3
+							</message>
+							<metainfo
+								codefile="c:\New folder (2)\TestAutomation\STSmyHearing\AndroidSetup.cs"
+								codeline="72"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="44.59s"
+					durationms="44587"
+					type="test module"
+					rid="b86f177f7681027"
+					totalerrorcount="1"
+					totalwarningcount="8"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="HCPAddress"
+					moduleid="0fed57d8-8bc3-47d9-9bad-dc41af23ef2d"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="01:02.137"
+						timeRelativeToTestModuleStartTime="00:10.025"
+						timeWallClock="23:46:04"
+						time="01:02.137"
+						level="Failure"
+						category="User">
+						<message>
+							Timed out after 10 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="287"
+							loglvl="Failure"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.827"
+						timeRelativeToTestModuleStartTime="00:12.715"
+						timeWallClock="23:46:06"
+						time="01:04.827"
+						level="Info"
+						category="">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_STSmyHea_a77f40c\STSmyHea_f4d9f6d3_rxlog.jpg"><img src="images_STSmyHea_a77f40c\STSmyHea_f4d9f6d3_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\Logger.cs"
+							codeline="152"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.832"
+						timeRelativeToTestModuleStartTime="00:12.720"
+						timeWallClock="23:46:06"
+						time="01:04.832"
+						level="Info"
+						category="User">
+						<message>
+							Tap on 'My Hearing Care Professional'
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\Logger.cs"
+							codeline="226"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:15.348"
+						timeRelativeToTestModuleStartTime="00:23.235"
+						timeWallClock="23:46:17"
+						time="01:15.348"
+						level="Failure"
+						category="User">
+						<message>
+							Timed out after 10 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="287"
+							loglvl="Failure"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:18.018"
+						timeRelativeToTestModuleStartTime="00:25.906"
+						timeWallClock="23:46:20"
+						time="01:18.018"
+						level="Info"
+						category="">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_STSmyHea_a77f40c\STSmyHea_f4d8f6d3_rxlog.jpg"><img src="images_STSmyHea_a77f40c\STSmyHea_f4d8f6d3_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\Logger.cs"
+							codeline="152"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:19.637"
+						timeRelativeToTestModuleStartTime="00:27.525"
+						timeWallClock="23:46:21"
+						time="01:19.637"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:21.672"
+						timeRelativeToTestModuleStartTime="00:29.559"
+						timeWallClock="23:46:23"
+						time="01:21.672"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:23.735"
+						timeRelativeToTestModuleStartTime="00:31.622"
+						timeWallClock="23:46:25"
+						time="01:23.735"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:25.807"
+						timeRelativeToTestModuleStartTime="00:33.694"
+						timeWallClock="23:46:27"
+						time="01:25.807"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:25.891"
+						timeRelativeToTestModuleStartTime="00:33.778"
+						timeWallClock="23:46:27"
+						time="01:25.891"
+						level="Failure"
+						category="User">
+						<message>
+							Information 'Am Testerweg 3' text has not found
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\Logger.cs"
+							codeline="250"
+							loglvl="Failure"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:27.331"
+						timeRelativeToTestModuleStartTime="00:35.219"
+						timeWallClock="23:46:29"
+						time="01:27.331"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.376"
+						timeRelativeToTestModuleStartTime="00:37.264"
+						timeWallClock="23:46:31"
+						time="01:29.376"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:31.547"
+						timeRelativeToTestModuleStartTime="00:39.434"
+						timeWallClock="23:46:33"
+						time="01:31.547"
+						level="Warn"
+						category="User">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:33.668"
+						timeRelativeToTestModuleStartTime="00:41.555"
+						timeWallClock="23:46:35"
+						time="01:33.668"
+						level="Warn"
+						category="User"
+						errimg="images_STSmyHea_a77f40c\STSmyHea_a77f40c_0e6ac77e_trace.jpg"
+						errthumb="images_STSmyHea_a77f40c\STSmyHea_a77f40c_0e6ac77e_trace_thumb.jpg">
+						<message>
+							Timed out after 1 seconds
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="222"
+							loglvl="Warn"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:33.739"
+						timeRelativeToTestModuleStartTime="00:41.626"
+						timeWallClock="23:46:35"
+						time="01:33.739"
+						level="Failure"
+						category="User"
+						errimg="images_STSmyHea_a77f40c\STSmyHea_a77f40c_d03a1a62_trace.jpg"
+						errthumb="images_STSmyHea_a77f40c\STSmyHea_a77f40c_d03a1a62_trace_thumb.jpg">
+						<message>
+							Information '10101 Testonia' text has not found
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\Logger.cs"
+							codeline="250"
+							loglvl="Failure"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:36.539"
+						timeRelativeToTestModuleStartTime="00:44.426"
+						timeWallClock="23:46:38"
+						time="01:36.539"
+						level="Info"
+						category="">
+						<message>
+							<a class="thickbox" style="padding-right:8px" rel="module" href="images_STSmyHea_a77f40c\STSmyHea_f4d7f6d3_rxlog.jpg"><img src="images_STSmyHea_a77f40c\STSmyHea_f4d7f6d3_rxlog_thumb.jpg" alt="Screenshot"/></a>
+						</message>
+						<metainfo
+							codefile="c:\New folder (2)\TestAutomation\AppLayer\Logger.cs"
+							codeline="152"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:36.544"
+						timeRelativeToTestModuleStartTime="00:44.431"
+						timeWallClock="23:46:38"
+						time="01:36.544"
+						level="Error"
+						category="Module"
+						errimg="images_STSmyHea_a77f40c\STSmyHea_a77f40c_e2e1d523_trace.jpg"
+						errthumb="images_STSmyHea_a77f40c\STSmyHea_a77f40c_e2e1d523_trace_thumb.jpg">
+						<message>
+							The module has failed because one or more actions have failed.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.77s"
+					durationms="2767"
+					type="test case teardown"
+					rid="1fd2d3fd20ec151f"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="2.76s"
+						durationms="2762"
+						type="test module"
+						rid="2a12f154ed1cc3eb"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="TearDown (AppLayer)"
+						moduleid="1d74af86-aa53-4631-9e38-63b8127c81f7"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

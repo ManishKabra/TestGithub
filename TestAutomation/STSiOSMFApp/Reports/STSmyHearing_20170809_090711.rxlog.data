@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="326907da5b3d5516"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="1"
+		user="Z002XFCE"
+		host="BLRKIET0189PC"
+		rxversion="6.2.1.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1440x900"
+		timestamp="8/9/2017 9:07:11 AM"
+		timestampiso="2017-08-09T03:37:11"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.42s"
+			durationms="1423"
+			type="test suite"
+			rid="4a70780622afbad"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1"
+			testsuitename="STSmyHearing"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="7">
+			<params>
+				<param
+					name="Device">
+					4d0096084cea41e3
+				</param>
+				<param
+					name="Brand">
+					Signia
+				</param>
+				<param
+					name="AppName">
+					com.signia.myhearing
+				</param>
+				<param
+					name="NewParameter">
+					Pappu
+				</param>
+			</params>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.4s"
+				durationms="1402"
+				type="test case setup"
+				rid="11ab1277a8fd3d38"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.4s"
+					durationms="1398"
+					type="test module"
+					rid="2b6028cdc1b3536c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="AndroidSuiteSetUp"
+					moduleid="f7be559f-6339-485a-b996-d763e4a82164"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<errmsg>
+						Webdriver object not set
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.491"
+						timeRelativeToTestModuleStartTime="00:01.124"
+						timeWallClock="09:07:13"
+						time="00:01.491"
+						level="Failure"
+						category="User"
+						errimg="images_STSmyHea_bc386fd8\STSmyHea_bc386fd8_80ddb219_trace.jpg"
+						errthumb="images_STSmyHea_bc386fd8\STSmyHea_bc386fd8_80ddb219_trace_thumb.jpg">
+						<message>
+							Object reference not set to an instance of an object.
+						</message>
+						<metainfo
+							codefile="c:\Framework\TestAutomation\AppLayer\AppiumService\KeywordImplementation.cs"
+							codeline="143"
+							loglvl="Failure"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.586"
+						timeRelativeToTestModuleStartTime="00:01.219"
+						timeWallClock="09:07:13"
+						time="00:01.586"
+						level="Error"
+						category="Module"
+						errimg="images_STSmyHea_bc386fd8\STSmyHea_bc386fd8_075208ee_trace.jpg"
+						errthumb="images_STSmyHea_bc386fd8\STSmyHea_bc386fd8_075208ee_trace_thumb.jpg">
+						<message>
+							Webdriver object not set
+						</message>
+						<metainfo
+							stacktrace="   at AppLayer.AppiumService.Accessor.getDriver() in c:\Framework\TestAutomation\AppLayer\AppiumService\Accessor.cs:line 30
+   at STSmyHearing.AndroidSuiteSetUp.Ranorex.Core.Testing.ITestModule.Run() in c:\Framework\TestAutomation\STSmyHearing\AndroidSuiteSetUp.cs:line 244
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Framework\TestAutomation\AppLayer\AppiumService\Accessor.cs"
+							codeline="30"
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Ignored"
+				duration="1ms"
+				durationms="1"
+				type="test case"
+				rid="4fe1e2dbe36dcdf"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				testcasename="HCPAddress"
+				testcaseid="2375aa54-6622-4151-9326-749c7a12d595"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{994D6B4F-5960-4CA3-96CA-B46CB40DEC13}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WrapperSTSAndBasic</RootNamespace>
+    <AssemblyName>WrapperSTSAndBasic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>True</IsCodedUITest>
+    <TestProjectType>CodedUITest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Ranorex.Controls, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core.Injector, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Core.Injector.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Core.WinApi, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Core.WinApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Libs.WinForms, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Libs.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.PDF">
+      <HintPath>..\..\External\Ranorex\Ranorex.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Cef.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.ChromeWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Flex.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Java.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.MozillaWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Msaa.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Office.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Qt.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.RawText.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Sap.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Uia.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Win32.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf, Version=6.2.1.0, Culture=neutral, PublicKeyToken=b798506b574ebc9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\External\Ranorex\Ranorex.Plugin.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodedUITest1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AppLayer\AppLayer.csproj">
+      <Project>{fe502db7-361a-44dd-92c6-26bbc5ce5c48}</Project>
+      <Name>AppLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\STSAndBasic\STSAndBasic.csproj">
+      <Project>{3c987bfd-f044-4def-93f4-d26e57d7bcef}</Project>
+      <Name>STSAndBasic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' Or '$(VisualStudioVersion)' == '11.0') And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="UIAutomationTypes" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
